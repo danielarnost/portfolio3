@@ -2,7 +2,7 @@ html, body {
 	margin: 0;
 	padding: 0;
 /*	background-color: 	 #6D92A0 ;*/
-	background-image: url("../images/background7.png");
+	background-image: url("../images/free-wallpaper-59.jpg");
 	height:100%;
 }
 
@@ -88,24 +88,27 @@ margin-top:2rem;
 }
 
 .progress {
-	background-color: rgb(50, 50, 50);
+	background-color: #022A35;
 	height: 30px;
 	margin-bottom: 20px;
 	border-radius: 0;
 	-webkit-border-radius: 0;
 	-moz-border-radius: 0;
 	-o-border-radius: 0;
+	border:1px solid black;
 }
 
 .progress-bar {
 	line-height: 30px;
 	font-size: 114%;
 	text-align: left;
-	background-color: #6D92A0;
+	background-color: #022A35;
+	
 }
 
 .bar-text span {
 	padding: 40px 15px;
+
 }
 
 .card-img-top {
