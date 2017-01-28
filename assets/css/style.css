@@ -2,8 +2,9 @@ html, body {
 	margin: 0;
 	padding: 0;
 /*	background-color: 	 #6D92A0 ;*/
-	background-image: url("../images/free-wallpaper-59.jpg");
-	height:100%;
+background-image: url("../images/free-wallpaper-59.jpg");
+height:100%;	
+	
 }
 
 
@@ -22,10 +23,12 @@ margin-top:1rem ;
 /*#brandname {
 	margin-top:1.4rem;
 }*/
+ul li:hover {
+	background: #555;
+}
 
-/*#iconLinks{
-	margin-left: 	11rem;
-}*/
+
+
 
 /*#cell{
 	margin-right:0;
@@ -38,7 +41,29 @@ margin-top:2rem;
 	margin-top: 10rem;
 	width: 100%;
 }
+#aspiration{
+	
+background-color:teal;
+opacity:0.9;
+	width: 100%;
+	background: rgb(50, 50, 50);
 
+}
+#aspiration h2{
+color: #6D92A0;
+opacity:1.0;
+}
+#aspiration p{
+color: #6D92A0;
+}
+	}
+#skillz{
+	color: #6D92A0;
+background-color:teal;
+opacity:0.3;
+	width: 100%;
+	background: rgb(50, 50, 50);
+}
 .inner {
 	padding: 0px 50px;
 	padding-bottom: 15px;
