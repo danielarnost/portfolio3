@@ -1,321 +1,247 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<script
-  src="https://code.jquery.com/jquery-3.1.1.slim.min.js"
-  integrity="sha256-/SIrNqv8h6QGKDuNoLGA4iret+kyesCkHGzVUUV0shc="
-  crossorigin="anonymous"></script>
-<!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
-<!-- Optional theme -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-
-<!-- Latest compiled and minified JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-<link rel="stylesheet" href="assets/css/style.css">
-<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600i" rel="stylesheet">
-	<title>My Portfolio</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha256-/SIrNqv8h6QGKDuNoLGA4iret+kyesCkHGzVUUV0shc=" crossorigin="anonymous"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600i" rel="stylesheet">
+    <title>My Portfolio</title>
 </head>
+
 <body>
-<div class="parallax">
-<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-     <div class="container-fluid">
-<!--header section -->
-          <div class="navbar-header">
-               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-               <span class="sr-only">Toggle navigation</span>
-               <span class="icon-bar"></span>
-               <span class="icon-bar"></span>
-               <span class="icon-bar"></span>
-               </button>
-               <a class="navbar-brand" href="#" id="name">Daniel Arnost</a>
-          </div>
-<!-- menu section -->
-          <div class="collapse navbar-collapse navbar-ex1-collapse">
-               <ul class="nav navbar-nav navbar-right" id ="links">
-               <li><a href="https://github.com/danielarnost">Github<img src ="./assets/images/GitHub-48.png"></a></li>
-               <li><a href="https://www.linkedin.com/in/daniel-arnost-3b862a80?trk=nav_responsive_tab_profile_pic">Linked In  <img height ="50rem" src ="./assets/images/LinkedIn-48.png"></a></li>
-               <li><a href="http://stackoverflow.com/users/6637612/daniel-arnost">Stack Overflow  <img height ="50rem" src ="./assets/images/stackoverflow1.png"></a></li>
-               <li id="email"><a href="#"><h6>danielarnost@gmail.com</h6></a></li>
-               
-               </ul>
-          </div>
-     </div>
-</nav>
-
-
-<!-- <nav class="navbar navbar-inverse">
-  <div class="container-fluid">
-    Brand and toggle get grouped for better mobile display
-    <div class="navbar-header">
-     
-      <div class="navbar-brand" id="brandname">Daniel Arnost</div>
-    </div> -->
-
-    <!-- Collect the nav links, forms, and other content for toggling -->
-<!--     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav" id="iconLinks">
-        <li><a href="https://github.com/danielarnost">Github<img src ="./assets/images/GitHub-48.png"></a></li>
-        <li><a href="https://www.linkedin.com/in/daniel-arnost-3b862a80?trk=nav_responsive_tab_profile_pic">Linked In  <img height ="50rem" src ="./assets/images/LinkedIn-48.png"></a></li>
-        <li><a href="http://stackoverflow.com/users/6637612/daniel-arnost">Stack Overflow  <img height ="50rem" src ="./assets/images/stackoverflow1.png"></a></li>
-      </ul>
-     
-      <ul class="nav navbar-nav navbar-right" id="cell">
-        <li><h6>danielarnost@gmail.com</h6></li>
-        
-     </ul> -->
-  <!--  </div> --><!-- /.navbar-collapse -->
-  <!-- </div> --><!-- /.container-fluid -->
-<!-- </nav> -->
-
-
-<div class="strip">
-			<div class="inner" id="top">
-
-				<div class="centered">
-					<div class="tagline">
-						<h2> Austin Based Web Developer </h2>
-					</div>
-				</div>
-
-				<br>
-
-				<div class="header">
-					<div align="center">
-						<img src="./assets/images/facebook-headshot-crop.png">
-					</div>
-
-					<div class="intro-text">
-						<h1>Daniel Arnost &nbsp;&nbsp;<em> Web Development Enthusiast</em></h1>
-					</div>
-				</div>
-			</div>
-		</div>
-
-		<br>
-
-		<div class="container-fluid">
-			<div class="row" id="aspiration">
-				<div class="col-md-12">
-					<h2><em>Background</em></h2>
-
-					<p class="container-text">
-						I became interested in web development as a graduate student, during which time I manipulated code in MATLAB and COMSOL for my thesis.  I was able to use data I gathered to plug into the models, but I wanted to learn how write this code from scratch and manipulate scientific models to fit the needs of my research and my laboratory.  After completing my degree I wanted to keep learning and my primary focus shifted from geology to web development.
-					 I have a B.S. in Geosciences from University of Massachusetts, Amherst as well as an M.S. in Geosciences from The University of Texas at Austin. My ideal position would integrate past experience with new web development skills and I am always open to learning new and challenging languages and technologies.
-					</p>
-				</div>
-			</div>
-		</div>
-
-		<br>
-
-		<div class="container-fluid">
-		
-			<div class="row" id ="skillz">
-				<div class="col-md-12">
-					<h2 align="right"><em>Skills</em></h2>
-
-					<p class="container-text">
-						My time at the Coding Bootcamp at UT Austin has given me an introduction to a range of full stack skills including HTML, CSS, javascript libraries, NodeJS, MySQL, MongoDB, among others.  I am excited to keep learning new skillls as well as perfecting my old ones.
-
-						<div class="progress">
-						  <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
-						    <div class="bar-text"><span>HTML</span></div>
-						  </div>
-						</div>
-
-						<div class="progress">
-						  <div class="progress-bar" role="progressbar" aria-valuenow="87" aria-valuemin="0" aria-valuemax="100" style="width: 87%;">
-						    <div class="bar-text"><span>CSS</span></div>
-						  </div>
-						</div>
-
-						<div class="progress">
-						  <div class="progress-bar" role="progressbar" aria-valuenow="56" aria-valuemin="0" aria-valuemax="100" style="width: 56%;">
-						    <div class="bar-text"><span>JS / JQuery</span></div>
-						  </div>
-						</div>
-
-						<div class="progress">
-						  <div class="progress-bar" role="progressbar" aria-valuenow="66" aria-valuemin="0" aria-valuemax="100" style="width: 66%;">
-						    <div class="bar-text"><span>NodeJS</span></div>
-						  </div>
-						</div>
-						<div class="progress">
-						  <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
-						    <div class="bar-text"><span>mySQL</span></div>
-						  </div>
-						</div>
-						<div class="progress">
-						  <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
-						    <div class="bar-text"><span>mongoDB</span></div>
-						  </div>
-						</div>
-					</p>
-				</div>
-			</div>
-		</div>
-
-		<br><br>
-		<br>
-		<br>
-		<br>
-		<div class="container-fluid">
-			<div class="row">
-				<div class="col-md-12">
-					<em><h2>
+    <div class="parallax">
+        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+            <div class="container-fluid">
+                <!--header section -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#" id="name">Daniel Arnost</a>
+                </div>
+                <!-- menu section -->
+                <div class="collapse navbar-collapse navbar-ex1-collapse">
+                    <ul class="nav navbar-nav navbar-right" id="links">
+                        <li><a href="https://github.com/danielarnost">Github<img src ="./assets/images/GitHub-48.png"></a></li>
+                        <li><a href="https://www.linkedin.com/in/daniel-arnost-3b862a80?trk=nav_responsive_tab_profile_pic">Linked In  <img height ="50rem" src ="./assets/images/LinkedIn-48.png"></a></li>
+                        <li><a href="http://stackoverflow.com/users/6637612/daniel-arnost">Stack Overflow  <img height ="50rem" src ="./assets/images/stackoverflow1.png"></a></li>
+                        <li id="email"><a href="#"><h6>danielarnost@gmail.com</h6></a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="strip">
+            <div class="inner" id="top">
+                <div class="centered">
+                    <div class="tagline">
+                        <h2> Austin Based Web Developer </h2>
+                    </div>
+                </div>
+                <br>
+                <div class="header">
+                    <div align="center">
+                        <img src="./assets/images/facebook-headshot-crop.png">
+                    </div>
+                    <div class="intro-text">
+                        <h1>Daniel Arnost &nbsp;&nbsp;<em> Web Development Enthusiast</em></h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="container-fluid">
+            <div class="row" id="aspiration">
+                <div class="col-md-12">
+                    <h2><em>Background</em></h2>
+                    <p class="container-text">
+                        I became interested in web development as a graduate student, during which time I manipulated code in MATLAB and COMSOL for my thesis. I was able to use data I gathered to plug into the models, but I wanted to learn how write this code from scratch and manipulate scientific models to fit the needs of my research and my laboratory. After completing my degree I wanted to keep learning and my primary focus shifted from geology to web development. I have a B.S. in Geosciences from University of Massachusetts, Amherst as well as an M.S. in Geosciences from The University of Texas at Austin. My ideal position would integrate past experience with new web development skills and I am always open to learning new and challenging languages and technologies.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="container-fluid">
+            <div class="row" id="skillz">
+                <div class="col-md-12">
+                    <h2 align="right"><em>Skills</em></h2>
+                    <p class="container-text">
+                        My time at the Coding Bootcamp at UT Austin has given me an introduction to a range of full stack skills including HTML, CSS, javascript libraries, NodeJS, MySQL, MongoDB, among others. I am excited to keep learning new skillls as well as perfecting my old ones.
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
+                                <div class="bar-text"><span>HTML</span></div>
+                            </div>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="87" aria-valuemin="0" aria-valuemax="100" style="width: 87%;">
+                                <div class="bar-text"><span>CSS</span></div>
+                            </div>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="56" aria-valuemin="0" aria-valuemax="100" style="width: 56%;">
+                                <div class="bar-text"><span>JS / JQuery</span></div>
+                            </div>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="66" aria-valuemin="0" aria-valuemax="100" style="width: 66%;">
+                                <div class="bar-text"><span>NodeJS</span></div>
+                            </div>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+                                <div class="bar-text"><span>mySQL</span></div>
+                            </div>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+                                <div class="bar-text"><span>mongoDB</span></div>
+                            </div>
+                        </div>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <em><h2>
 						Recent Projects
 					</h2></em>
+                    <p class="container-text">
+                        My recent projects incuding homework during the Coding Bootcamp at UT Austin.
+                    </p>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img class="card-img-top" src="./assets/images/crystalGame.png" alt="game" height="200 em">
+                        <div class="card-block">
+                            <h4>Crystal Collector</h4>
+                            <p class="card-text">
+                                This is a simple game called crystal collector built with Bootstrap and javascript.
+                            </p>
+                        </div>
+                        <a href="https://dashboard.heroku.com/apps/stormy-inlet-15789" class="btn btn-primary">Heroku Deploy</a>
+                    </div>
+                </div>
+                <div class="whitespace"></div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img class="card-img-top" src="./assets/images/hangman1.png" alt="#" height="200 em">
+                        <div class="card-block">
+                            <h4>Hangman</h4>
+                            <p class="card-text">
+                                This hangman game is made using bootstrap and javascript, the theme is legendary guitarists.
+                            </p>
+                        </div>
+                        <a href="https://fathomless-cove-18069.herokuapp.com/" class="btn btn-primary">Heroku Deploy</a>
+                    </div>
+                </div>
+                <div class="whitespace"></div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img class="card-img-top" src="./assets/images/webScraper1.png" alt="#" height="200em">
+                        <div class="card-block">
+                            <h4>Web Scraper</h4>
+                            <p class="card-text">
+                                I used javascript to scrape a news outlet called "The Young Turks".
+                            </p>
+                        </div>
+                        <a href="https://hidden-tundra-14350.herokuapp.com/articles" class="btn btn-primary">Heroku Deploy</a>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img class="card-img-top" src="./assets/images/triviaGame.png" alt="#" height="200 em">
+                        <div class="card-block">
+                            <h4>Trivia game</h4>
+                            <p class="card-text">
+                                Simple timed trivia game using Bootstrap and javascript.
+                            </p>
+                        </div>
+                        <a href="https://boiling-depths-13902.herokuapp.com/#" class="btn btn-primary">Heroku Deploy</a>
+                    </div>
+                </div>
+                <div class="whitespace"></div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img class="card-img-top" src="./assets/images/friendFinder.png" alt="#" height="200 em">
+                        <div class="card-block">
+                            <h4>Friend Finder</h4>
+                            <p class="card-text">
+                                This app takes user input from a survey and matches the user with the celebrity friend that matches the closest friend.
+                            </p>
+                        </div>
+                        <a href="https://haunted-monster-26725.herokuapp.com/" class="btn btn-primary">Heroku Deploy</a>
+                    </div>
+                </div>
+                <div class="whitespace"></div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img class="card-img-top" src="./assets/images/mySQLburger.png" alt="#" height="200 em">
+                        <div class="card-block">
+                            <h4>Sequel Burger App</h4>
+                            <p class="card-text">
+                                This app uses MySQL and Express to create a full stack app that creates and destroys burgers.
+                            </p>
+                        </div>
+                        <a href="https://aqueous-fjord-81672.herokuapp.com" class="btn btn-primary">Heroku Deploy</a>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <br>
+            <br>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2 align="right">Contact</h2>
+                        <p class="container-text">
+                            If you would like to contact me, please feel free to email me at danielarnost@gmail.com
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <div class="col-md-12">
+                    <form class="form-horizontal" action="mailto:henry.david.zhu@gmail.com" method="post" encrypt="text/plain">
+                        <div class="form-group">
+                            <input type="text" class="form-control col-md-9" name="name" placeholder="Your Name" />
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control col-md-9" name="email" placeholder="Your Email" />
+                        </div>
+                        <div class="form-group">
+                            <textarea type="text" class="form-control col-md-9" name="body" placeholder="Your Comments"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <button type="submit" id="submit" class="btn btn-primary pull-right"><i class="glyphicon glyphicon-send"></i></button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript" src="logic.js"></script>
+</body>
 
-					<p class="container-text">
-						My recent projects incuding homework during the Coding Bootcamp at UT Austin.
-					</p>
-				</div>
-			</div>
-
-			<br>
-
-			<div class="row">
-				<div class="col-md-4">
-					<div class="card">
-						
-						<img class="card-img-top" src="./assets/images/crystal-collector.png" alt="game" height = "200 em">
-						<div class="card-block">
-							<h4>Crystal Collector</h4>
-
-							<p class="card-text">
-								This is a simple game called crystal collector built with Bootstrap and javascript.
-							</p>
-						</div>
-						<a href="https://dashboard.heroku.com/apps/stormy-inlet-15789" class="btn btn-primary">Heroku Deploy</a>
-					</div>
-				</div>
-
-				<div class="whitespace"></div>
-
-				<div class="col-md-4">
-					<div class="card">
-						
-						<img class="card-img-top" src="http://i.imgur.com/dqEYAvc.png" alt="#" height = "200 em">
-						<div class="card-block">
-							<h4>Project 2</h4>
-
-							<p class="card-text">
-								This is a hangman game 
-							</p>
-						</div>
-						<a href="#" class="btn btn-primary">Heroku Deploy</a>
-					</div>
-				</div>
-
-				<div class="whitespace"></div>
-
-				<div class="col-md-4">
-					<div class="card">
-						<img class="card-img-top" src="./assets/images/news-scraper.png" alt="#" height="200em">
-						<div class="card-block">
-							<h4>Web Scraper</h4>
-
-							<p class="card-text">
-								I used javascript to scrape a news outlet called "The Young Turks".
-							</p>
-						</div>
-						<a href="https://hidden-tundra-14350.herokuapp.com/articles" class="btn btn-primary">Heroku Deploy</a>
-					</div>
-				</div>
-			</div>
-
-			<br>
-
-			<div class="row">
-				<div class="col-md-4">
-					<div class="card">
-					
-						<img class="card-img-top" src="http://i.imgur.com/dqEYAvc.png" alt="#" height = "200 em">
-						<div class="card-block">
-							<h4>Trivia game</h4>
-
-							<p class="card-text">
-								Simple timed trivia game using Bootstrap and javascript.
-							</p>
-						</div>
-						<a href="https://boiling-depths-13902.herokuapp.com/#" class="btn btn-primary">Heroku Deploy</a>
-					</div>
-				</div>
-
-				<div class="whitespace"></div>
-
-				<div class="col-md-4">
-					<div class="card">
-						
-						<img class="card-img-top" src="http://i.imgur.com/dqEYAvc.png" alt="#" height = "200 em">
-						<div class="card-block">
-							<h4>Project 4</h4>
-
-							<p class="card-text">
-								Suspendisse dignissim eleifend dui nec eleifend. Aenean sit amet metus et odio volutpat imperdiet. Quisque laoreet, felis a sollicitudin.
-							</p>
-						</div>
-						<a href="#" class="btn btn-primary">Heroku Deploy</a>
-					</div>
-				</div>
-
-				<div class="whitespace"></div>
-
-				<div class="col-md-4">
-					<div class="card">
-						
-						<img class="card-img-top" src="http://i.imgur.com/dqEYAvc.png" alt="#" height = "200 em">
-						<div class="card-block">
-							<h4>Project 4</h4>
-
-							<p class="card-text">
-								Suspendisse dignissim eleifend dui nec eleifend. Aenean sit amet metus et odio volutpat imperdiet. Quisque laoreet, felis a sollicitudin.
-							</p>
-						</div>
-						<a href="#" class="btn btn-primary">Heroku Deploy</a>
-					</div>
-				</div>
-			</div>
-		</div>
-<br><br><br>
-		<div class="container-fluid">
-			<div class="row">
-				<div class="col-md-12">
-					<h2 align="right">Contact</h2>
-
-					<p class="container-text">
-						If you would like to contact me, please feel free to email me at danielarnost@gmail.com
-					</p>
-				</div>
-			</div>
-		</div>	
-
-		<div class="container-fluid">
-			<div class="col-md-12">
-				<form class="form-horizontal" action="mailto:henry.david.zhu@gmail.com" method="post" encrypt="text/plain">
-					<div class="form-group">
-						<input type="text" class="form-control col-md-9" name="name" placeholder="Your Name" />
-					</div>
-
-					<div class="form-group">
-						<input type="email" class="form-control col-md-9" name="email" placeholder="Your Email" />
-					</div>
-
-					<div class="form-group">
-						<textarea type="text" class="form-control col-md-9" name="body" placeholder="Your Comments"></textarea>
-					</div>
-
-					<div class="form-group">
-						<button type="submit" id="submit" class="btn btn-primary pull-right"><i class="glyphicon glyphicon-send"></i></button>
-					</div>
-				</form>
-			</div>
-		</div>	
-	</div>			
-<script type="text/javascript" src="logic.js"></script>
-	</body>
 </html>
