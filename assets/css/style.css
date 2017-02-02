@@ -1,24 +1,31 @@
 html, body {
-	margin: 0;
-	padding: 0;
+
+
 /*	background-color: 	 #6D92A0 ;*/
-background-image: url("../images/free-wallpaper-59.jpg");
-height:100%;	
+/*background-image: url("../images/free-wallpaper-59.jpg");*/
+/*height:100%;*/	
 	
 }
 
+.parallax {
+    /* The image used */
+    background-image: url("../images/free-wallpaper-59.jpg");
 
-* {
-/*	font-family: Helvetica, Arial, sans-serif;*/
-	font-weight: 400;
+    /* Set a specific height */
+    height: 100%; 
 
-	font-family: 'Source Sans Pro', sans-serif;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 #name {
-	margin-top:1.2rem ;
+margin-top:0.9em ;
 }
 #email {
-margin-top:1rem ;
+margin-top:0.7em ;
 }
 /*#brandname {
 	margin-top:1.4rem;
@@ -38,7 +45,7 @@ margin-top:2rem;
 
 
 .strip {
-	margin-top: 10rem;
+	padding-top: 8em;
 	width: 100%;
 }
 #aspiration{

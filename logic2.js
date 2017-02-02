@@ -1,2 +1,3 @@
-console.log(Math.max(2, 4));
-	
+for (var i = 4; i <= 156; i ++){
+console.log(i);
+}
