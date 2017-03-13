@@ -1,0 +1,29 @@
+{
+  "name": "portfolio3",
+  "version": "1.0.0",
+  "description": "my portfolio",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielarnost/portfolio3.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danielarnost/portfolio3/issues"
+  },
+  "homepage": "https://github.com/danielarnost/portfolio3#readme",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "body-parser": "^1.17.0",
+    "express": "^4.14.1",
+    "mongoose": "^4.8.6",
+    "morgan": "^1.8.1",
+    "nodemailer": "^3.0.2",
+    "router-express": "^1.5.2"
+  }
+}
