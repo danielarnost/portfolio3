@@ -23,6 +23,7 @@ success : function (response) {
 
  		});  //end ajax
  	});  //end submit
-$( function() {
-    $(document).tooltip();
-  } );
+// $(function() {
+//     $(document).tooltip();
+//   });
+
